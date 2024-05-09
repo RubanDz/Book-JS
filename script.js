@@ -214,7 +214,7 @@ console.group('Остаток от деления в JS 25')
 // let b = 5
 // alert(a % b)
 console.groupEnd();
-console.group('возведение в степень в JS 26')
+console.group('Возведение в степень в JS 26')
 // alert(10 ** 3)
 // let a = 10
 // alert(a ** 3)
@@ -654,7 +654,7 @@ console.group('Операция инкремента и декремента в 
 console.groupEnd()
 console.group('Префиксный и постфиксный тип в JS 60') 
 //TODO! ПЕРЕСМОТРЕТЬ ТЕМУ ПО ДРУГИМ ИСТОЧНИКАМ!!!
-console.log('ПЕРЕСМОТРЕТЬ ТЕМУ ПО ДРУГИМ ИСТОЧНИКАМ!!!');
+console.log('GPT');
 // let num = 0
 // alert(num++)
 // alert(num)
@@ -677,6 +677,20 @@ console.log('ПЕРЕСМОТРЕТЬ ТЕМУ ПО ДРУГИМ ИСТОЧНИ�
 // let num2 = num1--
 // alert(num1++)
 // alert(--num2)
+// TODO! GPT
+// let x = 5
+// let y = ++x
+// console.log(x);
+// console.log(y);
+// let a = 10
+// let b = a++
+// console.log(a);
+// console.log(b);
+// используется втч со строками
+// let str = 'abc'
+// let result = ++str
+// console.log(str);
+// console.log(result);
 console.groupEnd()
 console.group('Неточные вычисления в JS 61')
 // let a = 0.1 + 0.2
@@ -772,6 +786,379 @@ console.group('Поиск ошибок в коде 65')
 // console.log( (aaa + bbb + ccc));
 console.groupEnd()
 console.group('Практика на операции в JS 66')
+// alert(24 * 60 * 60)
+// alert(30 * 24 * 60 * 60)
+// alert(24 * 60)
+// alert(365 * 24 * 60)
+// alert(1024 * 1024)
+// alert(1024 * 1024 * 1024)
+// alert((1024 * 1024 * 1024 * 10) * 10)
+// alert(10224 * 1024 * 1024 * 1024)
+// alert(1024 * 1024)
+console.groupEnd()
+console.group('Практика на формулы в JS 67')
+// let r = 10;
+// const PI = 3.14;
+// let s = PI * r  ** 2
+// alert(s)
+// let a = 5;
+// let s = 5 * 5;
+// alert(s)
+// let a = 5
+// let b = 10
+// let s = a * b
+// alert(s)
+// let a = 5
+// let b = 10
+// let p = 2 * a + 2 * b
+// alert(p)
+// let tc = 36.6
+// let faringeit = (9 / 5) * tc + 32
+// alert(faringeit)
+// let tf = 97.88
+// let tc = (5 / 9) * (tf - 32)
+// alert(tc)
+console.groupEnd()
+console.groupEnd();
+console.group('Массивы в JS 68 - 79')
+console.group('Введение в массива 68')
+//Массив это специальный тип данных, который представляет собой переменную, в которой в упорядоченном виде можно хранить целый набор каких либо значений
+// let arr = [];
+// console.log(arr);
+// alert(arr)
+// let arr = [
+//     'a',
+//     'b',
+//     'c'
+// ]
+// let arr2 = [
+//     1,
+//     2,
+//     3
+// ]
+// let arr3 = [
+//     1,
+//     2,
+//     'a',
+//     'b',
+//     null,
+//     true,
+//     false
+// ]
+// console.log(arr3);
+// alert(arr3)
+// let arr = [1, 2, 3, 4, 5, 6]
+// console.log(arr);
+// alert(arr)
+// let str = [
+//     'hello', 'world', 'computer', 'Dzmitry', 12, '12'
+// ]
+// console.log(str);
+// alert(str)
+console.groupEnd()
+console.group('Получение элементов массивов в JS 69')
+// let arr = ['a', 'b', 'c']
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// let arrNumber = [1, 2, 3]
+// console.log(arrNumber[0]);
+// console.log(arrNumber[1]);
+// console.log(arrNumber[2]);
+// let arr = [1, 2, 3]
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// let arr = [1, 2, 3]
+// console.log(arr[0] + arr[1] + arr[2]);
+// let arr = ['a', 'b', 'c', 'd']
+// console.log(arr[0] + '+' + arr[1] + '+' + arr[2] + '+' + arr[3]);
+console.groupEnd()
+console.group('Длина массива в JS 70')
+// let arr = ['a', 'b', 'c']
+// console.log(arr.length);
+// let arr = ['a', 'b', 'c']
+// console.log(arr[arr.length - 1]);
+// let arr = ['a', null, Infinity, ['1', 6]]
+// alert(arr.length)
+// console.log(arr[arr.length-1]);
+console.groupEnd()
+console.group('Изменение элементов массива в JS 71')
+//элементы массивов можно изменять
+// let arr = ['a', 'b', 'c']
+// arr[0] = '!'
+// console.log(arr);
+// let arr = ['a', 'b', 'c']
+// console.log(arr);
+// arr[0] = 1
+// arr[1] = 2
+// arr[2] = 3
+// arr[3] = 5
+// console.log(arr);
+console.groupEnd()
+console.group('Перезапись элементов массива в JS 72')
+// let arr = ['a', 'b', 'c']
+// arr[0] = arr[0] + '!'
+// arr[1] = arr[1] + '!'
+// arr[2] = arr[2] + '!'
+// arr[0] += '!'
+// arr[1] += '!'
+// arr[2] += '!'
+// console.log(arr);
+// let num = [1, 1, 1, 1, 1, 1]
+// num[0] += 3
+// num[1] += 3
+// num[2] += 3
+// num[3] += 3
+// num[4] += 3
+// num[5] += 3
+// num[6] += 3
+// console.log(num);
+console.groupEnd()
+console.group('Инкремент и декремент элементов массива в JS 73')
+// let arr = [1, 2, 3, 4]
+// arr[0]++
+// ++arr[1]
+// arr[2]--
+// --arr[3]
+// console.log(arr);
+// let arr = [1, 2, 3]
+// ++arr[0]
+// ++arr[1]
+// ++arr[2]
+// console.log(arr);
+console.groupEnd()
+console.group('Добавление элементов по ключам JS 74')
+// let arr = []
+// arr[0] = 'a'
+// arr[1] = 'b'
+// arr[2] = 'c'
+// console.log(arr);
+// let arr = ['a', 'b', 'c']
+// arr[3] = 'd'
+// console.log(arr);
+// let arr = []
+// arr[0] = 1
+// arr[1] = 2
+// arr[2] = 3
+// console.log(arr);
+// let arr = [1, 2, 3]
+// arr[3] = 4
+// arr[4] = 5
+// console.log(arr);
+console.groupEnd()
+console.group('Разреженные массивы в JS 75')
+// let arr = ['a', 'b', 'c']
+// arr[4] = '!'
+// console.log(arr.length);
+// let arr = []
+// arr[3] = 'a'
+// arr[8] = 'b'
+// console.log(arr.length);
+console.groupEnd()
+console.group('Добавление элементов через push в JS 76')
+// let arr = []
+// arr.push('a')
+// arr.push('b')
+// arr.push('c')
+// console.log(arr);
+// let num = []
+// num.push(1)
+// num.push(2)
+// num.push(3)
+// console.log(num);
+// let arr = [1, 2, 3]
+// arr.push(4)
+// arr.push(5)
+// console.log(arr);
+console.groupEnd()
+console.group('Ключи массивов из переменных в JS 77')
+// let arr = ['a', 'b', 'c']
+// console.log(arr[0]);
+// let key = 0
+// console.log(arr[key]);
+// let arr = ['a', 'b', 'c']
+// let key = 2
+// console.log(arr[key]);
+// let arr = [1, 2, 3, 4, 5]
+// let key1 = 1
+// let key2 = 2
+// console.log(arr[key1] + arr[key2]);
+console.groupEnd()
+console.group('Оператор delete в массивах в JS 78')
+// let arr = ['a', 'b', 'c']
+// delete arr[1]
+// console.log(arr);
+// let arr = ['a', 'b', 'c', 'd', 'e']
+// delete arr[0]
+// delete arr[1]
+// console.log(arr.length);
+// После удаления элемента массива, длина не меняется [пусто]
+console.groupEnd()
+console.group('Поиск ошибок в коде с массивами JS 79')
+// let arr = [1, 2, 3, 4, 5]
+// console.log(arr[arr.length - 1]);
+// let arr = [1, 2, 3, 4, 5]
+// console.log(arr[0] + arr[1] + arr[2] + arr[3] + arr[4]);
+// let arr = [1, 2, 3, 4, 5]
+// console.log(arr.length);
+console.groupEnd()
+console.groupEnd();
+console.group('Объекты в JS 80 - 103')
+console.group('Введение в объекты 80')
+// let obj = {}
+// alert(obj)
+// let obj = {
+//     1: 'a',
+//     2: 'b',
+//     3: 'c'
+// }
+// console.log(obj[1]);
+// let obj = {
+//     1: 'понедельник',
+//     2: 'вторник',
+//     3: 'среда',
+//     4: 'четверг',
+//     5: 'пятница',
+//     6: 'суббота',
+//     7: 'воскресенье',
+// }
+// console.log(obj);
+console.groupEnd()
+console.group('Вывод всего объекта в JS 81')
+// let obj = {
+//     1: 'a',
+//     2: 'b',
+//     3: 'c'
+// }
+// alert(obj)
+// let obj = {
+//     1: 'январь',
+//     2: 'февраль',
+//     3: 'март',
+//     4: 'апрель',
+//     5: 'май',
+//     6: 'июнь',
+//     7: 'июль',
+//     8: 'август',
+//     9: 'сенябрь',
+//     10: 'октябрь',
+//     11: 'ноябрь',
+//     12: 'декабрь',
+// }
+// console.log(obj);
+console.groupEnd()
+console.group('Строковые ключи объектов в JS 82')
+// let obj = {
+//     'a': 1,
+//     'b': 2,
+//     'c': 3
+// }
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// console.log(obj['a']);
+// let user = {
+//     'name': 'Dzmitry',
+//     'surname': 'Ruban',
+//     'patronymic': 'Ivanovich'
+// }
+// console.log(user['surname'] + ' ' + user['name'] + ' ' + user['patronymic']);
+console.groupEnd()
+console.group('Свойство объектов в JS 83')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// console.log(obj.a);
+// let date = {
+//     year: '2024',
+//     month: 'май',
+//     day: 'четверг'
+// }
+// alert(date.year + ' ' + date.month + ' ' + date.day)
+console.groupEnd()
+console.group('Ограничения на ключи объектов JS 84')
+// let obj = {
+//     '1key': 'a',
+//     'key-2': 'b',
+//     key3: 'c'
+// }
+// console.log(obj['1key']);
+// console.log(obj['key-2']);
+// console.log(obj['key3']);
+// console.log(obj["key-2"]);
+// console.log(obj["1key"]);
+// let obj = {
+//     '1a': 1,
+//     'b2': 2,
+//     'c-c': 3,
+//     'd 4': 4,
+//     'e5': 5
+// }
+// console.log(obj["1a"]);
+// console.log(obj.b2);
+// console.log(obj["c-c"]);
+// console.log(obj["d 4"]);
+// console.log(obj.e5);
+console.groupEnd()
+console.group('Изменение элементов в JS 85')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// obj['a'] = '!'
+// obj.b = '!'
+// console.log(obj);
+// let obj = {
+//     w: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(obj.w ** 2);
+// console.log(obj.y ** 2);
+// console.log(obj.z ** 2);
+console.groupEnd()
+console.group('Добавление элементов в объекты в JS')
+// let obj = {}
+// obj['a'] = 1
+// obj['b'] = 2
+// obj['c'] = 3
+// console.log(obj);
+let obj = {}
+obj['a'] = 1
+obj['b'] = 2
+obj['c'] = 3
+obj['d'] = 4
+obj['e'] = 5
+obj['f'] = 6
+obj['g'] = 7
+obj['h'] = 8
+console.log(obj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -862,6 +1249,92 @@ console.group('Практика на операции в JS 66')
 
 console.groupEnd();
 console.groupEnd();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
