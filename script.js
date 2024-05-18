@@ -1123,22 +1123,572 @@ console.group('Изменение элементов в JS 85')
 // console.log(obj.y ** 2);
 // console.log(obj.z ** 2);
 console.groupEnd()
-console.group('Добавление элементов в объекты в JS')
+console.group('Добавление элементов в объекты в JS 86')
 // let obj = {}
 // obj['a'] = 1
 // obj['b'] = 2
 // obj['c'] = 3
 // console.log(obj);
-let obj = {}
-obj['a'] = 1
-obj['b'] = 2
-obj['c'] = 3
-obj['d'] = 4
-obj['e'] = 5
-obj['f'] = 6
-obj['g'] = 7
-obj['h'] = 8
-console.log(obj);
+// let obj = {}
+// obj['a'] = 1
+// obj['b'] = 2
+// obj['c'] = 3
+// obj['d'] = 4
+// obj['e'] = 5
+// obj['f'] = 6
+// obj['g'] = 7
+// obj['h'] = 8
+// console.log(obj);
+console.groupEnd()
+console.group('Неупорядоченность объектов в JS 87')
+// let obj = {
+//     1: 'a',
+//     2: 'b',
+//     3: 'c',
+// }
+// console.log(obj[1]);
+// console.log(obj[2]);
+// console.log(obj[3]);
+// let obj = {
+//     7: 'a',
+//     50: 'c',
+//     23: 'b',
+// }
+// console.log(obj[7]);
+// console.log(obj[23]);
+// console.log(obj[50]);
+// let obj = {
+//     1: 'a',
+//     123: 'c',
+//     22: 'b',
+// }
+// console.log(obj);
+console.groupEnd()
+console.group('Массивы ключей объекта в JS 88')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// let key = Object.keys(obj)
+// console.log(key);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(obj);
+// let key = Object.keys(obj)
+// console.log(key);
+console.groupEnd()
+console.group('Длина объекта в JS 89')
+// У массивов нет свойства длины, но есть возможность использоать через обходной путь по массиву элементов ключей через Object.keys(obj).lenght
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// console.log(Object.keys(obj).length);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(Object.keys(obj).length);
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     e: 4,
+// }
+// console.log(obj);
+// console.log(Object.keys(obj));
+// console.log(Object.keys(obj).length);
+console.groupEnd();
+console.group('Ключи объектов из переменных в JS 90')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+// }
+// let key = 'a'
+// console.log(obj[key]);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// let key = 'x'
+// let key2 = 'y'
+// let key3 = 'z'
+// let key4 = 'g'
+// console.log(obj[key]);
+// console.log(obj[key2]);
+// console.log(obj[key3]);
+// console.log(obj[key4]);
+console.groupEnd()
+console.group('Ошибка обращения к элементу по ключу в JS 91')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// let key = 'a'
+// console.log(obj[key]);
+// console.log(obj.key);
+// console.log(obj.a);
+// console.log(obj.a);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(obj.x);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// let key = 'x'
+// console.log(obj['x']);
+// console.log(obj[key]);
+console.groupEnd()
+console.group('Ошибки обращения к свойству объекта в JS 92')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// let key = 'a'
+// console.log(obj[key]);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// let prop = 'x'
+// console.log(obj[prop]);
+console.groupEnd()
+console.group('Вычесляемые свойства в JS 93')
+// let key = 'a'
+// let obj = {
+//     [key + '1']: 1,
+//     [key + '2']: 2,
+//     [key + '3']: 3
+// }
+// console.log(obj[key + 1]);
+// let key = 'x'
+// let obj = {
+//     [key]: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(obj['x']);
+// let key1 = 'x'
+// let key2 = 'y'
+// let key3 = 'z'
+// let obj = {
+//     [key1]: 1,
+//     [key2]: 2,
+//     [key3]: 3
+// }
+// console.log(obj['x']);
+// console.log(obj['y']);
+// console.log(obj['z']);
+console.groupEnd()
+console.group('Оператор in в JS 94')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// console.log('c' in obj);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log('x' in obj);
+// console.log('w' in obj);
+console.groupEnd()
+console.group('Оператор delete в JS 95')
+// let obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// delete obj.b
+// console.log(obj);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// delete obj.x
+// console.log('x' in obj);
+console.groupEnd()
+console.group('Типизация объектов в JS 96')
+// console.log(typeof {});
+// console.log(typeof {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// });
+// console.log(typeof {});
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(typeof obj);
+// let obj = {
+//     x: 's',
+//     y: 2,
+//     z: 3
+// }
+// console.log(typeof obj['x']);
+console.groupEnd()
+console.group('Массивы как объекты в JS 97')
+// console.log(typeof []);
+// console.log(typeof [1, 2, 3]);
+// let arr = [1, 2, 3]
+// console.log(typeof arr);
+// let arr = [1,2,3]
+// console.log(typeof arr[0]);
+// let arr = ['a', 'v', 'c']
+// console.log(typeof arr[0]);
+console.groupEnd()
+console.group('Отличаем массивы от объектов в JS 98')
+// console.log(Array.isArray([]));
+// console.log(Array.isArray({}));
+// console.log(Array.isArray([1,2,3]));
+// console.log(Array.isArray({a: 1, b: 2}));
+console.groupEnd()
+console.group('Объекты и примитивы в JS 99')
+// let test = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(typeof test);
+// console.log(typeof test.x);
+// let test = [1,2,3]
+// console.log(typeof test);
+// console.log(typeof test[1]);
+// let test = [1,2,3]
+// let test2 = 1
+// console.log(typeof test2);
+// console.log(typeof test[test2]);
+console.groupEnd()
+console.group('Передача объектов по ссылке в JS 100')
+// let obj1 = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// let obj2 = obj1
+// obj2.a = '!'
+// console.log(obj1);
+// let arr1 = [1,2,3]
+// let arr2 = arr1
+// arr1[0] = 'a'
+// console.log(arr1);
+// let arr1 = [1, 2, 3]
+// let arr2 = arr1
+// arr1[0] = 'a'
+// arr2[1] = 'b'
+// console.log(arr1);
+// let arr1 = [1, 2, 3]
+// let arr2 = arr1
+// arr1[0] = 'a'
+// arr2[0] = 'b'
+// console.log(arr1);
+console.groupEnd()
+console.group('Константы с массивами или объектами в JS 101')
+// const obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+// obj = 123 // error
+// abj = { x: 1, y: 2}
+// console.log(obj);
+// obj.a = '+'
+// console.log(obj);
+// const arr = ['a', 'b', 'c']
+// arr[1] = '!'
+// console.log(arr);
+// const arr = ['a', 'b', 'c']
+// arr = [1, 2, 3]
+// console.log(arr);
+// const arr = ['a', 'b', 'c']
+// arr = ['a', 'b', 'c']
+// console.log(arr);
+// const arr = [1, 2, 3,]
+// arr[2] = 'Изменено!'
+// console.log(arr);
+console.groupEnd()
+console.group('Подход программирования через константы в JS 102')
+// const a = 1
+// const b = 2
+// const c = a + b
+// console.log(c);
+// const arr = [1, 2, 3, 4, 5]
+// const result = arr[1] + arr[2]
+// console.log(result);
+console.groupEnd()
+console.group('Поиск ошибок в коде с объектами JS 103')
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(obj.x);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// let key = 'x'
+// console.log(obj[key]);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// let sum = obj.x + obj.y + obj.z
+// console.log(sum);
+// let obj = {
+//     x: 1,
+//     y: 2,
+//     z: 3
+// }
+// console.log(Object.keys(obj).length);
+console.groupEnd()
+console.groupEnd()
+console.group('Условия в JS 104-142')
+console.group('Конструкция if-else 104')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
