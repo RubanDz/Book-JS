@@ -1468,6 +1468,2161 @@ console.groupEnd()
 console.groupEnd()
 console.group('Условия в JS 104-142')
 console.group('Конструкция if-else 104')
+// if (condition) {
+    
+// } else {
+    
+// }
+console.groupEnd()
+console.group('Операторы больше и меньше в JS 105')
+// let test = 0;
+// if (test <= 0) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+// let test = 10
+// if (test <= 0) {
+//     console.log('Больше 0');
+// } else {
+//     console.log('Меньше 0');
+// }
+console.groupEnd()
+console.group('Проверка на равенство JS 106')
+// let test = 1
+// if (test == 0) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+// let test = 10
+// if (test == 10) {
+//     console.log('Равна');
+// } else {
+//     console.log('Не равна')
+// }
+console.groupEnd()
+console.group('Проверка на неравенство в JS 107')
+// let test = 0
+// if (test != 0) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+// let test = 10
+// if (test != 0) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+console.groupEnd()
+console.group('Сравнение переменных в JS 108')
+// let test1 = 2
+// let test2 = 2
+// if (test1 == test2) {
+//     console.log('true');
+// } else {
+//     console.log('false');
+// }
+console.groupEnd()
+console.group('Равенство строк в JS 109')
+// let test = 'ABc'
+// if (test == 'abc') {
+//     console.log('++++');
+// } else {
+//     console.log('----');
+// }
+console.groupEnd()
+console.group('Равенство строк и чисел в JS 110')
+// if ('3' == 3) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+// let test1 = '123'
+// let test2 = 123
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Равенство по значению и типу в JS 111')
+// if ('3' === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if ('3' === '3') {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (3 === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (2 === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = '3'
+// let test2 = '3'
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = '3'
+// let test2 = '3'
+// if (test1 === test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = '3'
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = '3'
+// if (test1 === test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = 3
+// if (test1 === test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Неравенство по значению и типу в JS 112')
+// if (3 != 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if ('3' != 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (3 !== 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if ('3' !== 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = '3'
+// let test2 = '3'
+// if (test1 != test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = '3'
+// let test2 = '3'
+// if (test1 !== test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = '3'
+// if (test1 != test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = '3'
+// if (test1 !== test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = 3
+// let test2 = 2
+// if (test1 !== test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Логическое И в JS 113')
+// let num = 3
+// if (num > 0 && num < 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 2
+// let num2 = 5
+// if (num == 2 && num2 == 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 4
+// if (num > 0 && num < 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 10
+// if (num >= 10 && num <= 20) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 0.5
+// let num2 = 3.5
+// if (num <= 1 && num2 >= 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Логическое ИЛИ в JS 114')
+// let num1 = 10
+// let num2 = -5
+
+// if (num1 > 0 || num2 > 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = -10
+// let num2 = -10
+// if (num1 >= 0 || num2 >= 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = 0
+// let num2 = 0
+// if (num1 >= 0 || num2 >= 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = 0
+// let num2 = 5
+// if (num1 >= 0 || num2 >= 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = 5
+// let num2 = 5
+// if (num1 >= 0 || num2 >= 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = -5
+// let num2 = 15
+// if (num1 >= 0 || num2 >= 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 1
+// if (num == 0 || num == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 2
+// if (num == 0 || num == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 2
+// if (num == 0|| num == 1 || num == 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Приоритет логических операций в JS 115')
+// let num = 3
+// if (num > 0 && num < 5 || num > 10 && num < 20 ) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 2
+// if (num == 0 || num > 1 && num < 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Группировка условий в JS 116')
+// let num = 3
+// if ((num > 0 && num < 5) || (num > 10 && num < 20)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = 3
+// let num2 = 5
+// if (num1 > 0 && (num2 == 3 || num2 == 5)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 3
+// if (num > 5 && (num < 10 || num == 20)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 3
+// if (num > 5 || (num > 0 && num < 3)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 3
+// if (num == 9 || (num > 10 && num < 20) || num > 20 && num < 30) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Инвертирование логических выражений в JS 117')
+// if (num > 0 && num < 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (num <= 0 || num >= 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 4
+// if (!(num > 0 && num < 5)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = 8
+// let num2 = 9
+// if (!(num1 >= 0 || num2 <= 10)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Условия с булевыми значениями в JS 118')
+// let test = true
+// if (test === true) {
+//    console.log('+'); 
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (test === true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = false
+// if (test === false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Сравнение значений с булевым типом в JS 119')
+// let test = true
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 1
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 0
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 1
+// if (Boolean(test) == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 1
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 0
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 1
+// if (test == false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 1
+// if (test != true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = ''
+// if (test == false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test;
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 3 * 'a'
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Сокращенная форма проверки на истину в JS 120')
+// let test = true
+// if (test == true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Сокращенная форма проверки на ложь в JS 121')
+// let test = true
+// if (test === false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (test !== false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (!test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (!test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (!test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = true
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Общая сокращенная форма проверки в JS 122')
+// let test = 3
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 3
+// if (Boolean(test) === true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 3
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 'abc'
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = ''
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 3 * 'abc'
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = null
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = false
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = 0
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = '0'
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test = -1
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Сложные условия в сокращенной форме JS 123')
+// let test1 = true
+// let test2 = true
+// if (test1 && test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (test1 || test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// if (test1 && test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// if (test1 && !test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = false
+// let test2 = false
+// if (!test1 && !test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// if (test1 && test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// let test3 = true
+// if (test1 && test2 && test3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// let test3 = true
+// if (test1 || test2 || test3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let test1 = true
+// let test2 = true
+// let test3 = true
+// if (test1 || !test2 && !test3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+console.groupEnd()
+console.group('Необязательность конструкции else в JS 124')
+// let test = 1
+// if (test) {
+//     console.log('+');
+// }
+// let test = 10
+// if (test) {
+//     console.log('yes');
+// }
+console.groupEnd()
+console.group('Необязательность фигурных скобок в JS 125')
+// let test = 0
+// if (test === 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (test === 0) console.log('+'); else console.log('-');
+// if (test === 0) {
+//     console.log('++++');
+// } else console.log('-');
+// if (test === 0)
+//     console.log('+');
+// else
+// console.log('-');
+// let test = 1
+// if (test > 0) console.log('+'); else console.log('-');
+// if (test > 0) console.log('+');
+console.groupEnd()
+console.group('Проблема необязательности фигурных скобок в if-else 126')
+// let test = -3
+// if (test > 0) 
+//     console.log(test);
+//     console.log('+');
+// let test = 3
+// if (test > 6) {
+//     console.log('+');
+//     console.log(test);
+// }
+console.groupEnd()
+console.group('Конструкция else if в JS 127')
+// let num1 = 3
+// if (num1 == 1) {
+//     console.log('value1');
+// } else if (num1 == 2) {
+//     console.log('value2');
+// } else if (num1 == 3) {
+//     console.log('value3');
+// }
+// let num = 3
+// if (num == 1) {
+//     console.log('value1');
+// } else if (num == 2) {
+//     console.log('value2');
+// } else if (num == 3) {
+//     console.log('value3');
+// }
+// let day = 123
+// if (day <= 10) {
+//     console.log('1 dec');
+// } else if (day <= 20) {
+//     console.log('2 dec');
+// } else if (day <= 31) {
+//     console.log('3 dec');
+// } else {
+//     console.log('error');
+// }
+console.groupEnd()
+console.group('Вложенные конструкции if-else в JS 128')
+// let num = -6
+// if (num >= 0) {
+//     if (num <= 5) {
+//         console.log('меньше или равно 5');
+//     } else {
+//         console.log('больше 5');
+//     }
+// } else {
+//     console.log('меньше 0');
+// }
+// let num = 11
+// if (num >= 10 && num < 100 )
+//     if (num >= 10 && num < 100 ) {
+//         let str = String(num)
+//         let sum = +str[0] + +str[1]
+//         if (sum <= 9) {
+//             console.log('Сумма цифр одназначна');
+//         } else {
+//             console.log('сумма цифр ДВУХЗНАЧНА');
+//         }
+//     } 
+console.groupEnd()
+console.group('Конструкция swith-case в JS 129')
+// let num = 3;
+// switch(num) {
+//     case 1:
+//         console.log('value 1');
+//         break
+//         case 2:
+//             console.log('value2');
+//             break
+//             case 3:
+//                 console.log('value3');
+//                 break
+//                 default:
+//                 console.log('incorrect value');
+//                 break
+// }
+// let lang = 'de'
+// switch(lang) {
+//     case 'ru':
+//         console.log('рус');
+//         break;
+//         case 'en':
+//             console.log('анг');
+//             break;
+//             case 'de':
+//                 console.log('нем');
+//                 break;
+//                 default:
+//                     console.log('язык не поддерживается');
+//                     break
+// }
+console.groupEnd()
+console.group('Необязательность break в конструкции swith в JS 130')
+// let num = 1
+// switch (num) {
+//     case 1:
+//         console.log(1);
+//         case 2: 
+//         console.log(2);
+//         case 3:
+//             console.log(3);
+//         }
+// let num = 2
+// switch (num) {
+//     case 1:
+//         console.log(1);
+//         case 2: 
+//         console.log(2);
+//         case 3:
+//             console.log(3);
+//         }
+// let num = 3
+// switch (num) {
+//     case 1:
+//         console.log(1);
+//         case 2: 
+//         console.log(2);
+//         case 3:
+//             console.log(3);
+//         }
+// let num = 3
+// let result
+// switch (num) {
+//     case 1:
+//         case 2:
+//             res = 'a'
+//             break
+//             case 3:
+//                 res = 'b'
+//                 break
+// }
+// console.log(res);
+// let num = 3
+// let res
+// if (num == 1 || num == 2) {
+//     res = 'a'
+// }
+// if (num == 3) {
+//     res = 'b'
+// }
+// console.log(res);
+console.groupEnd()
+console.group('Тернарный оператор в JS 131')
+// let age = 34
+// let adult = age >= 18 ? true : false
+// console.log(adult);
+// let age = 34
+// let adult
+// if (age >= 18) {
+//    adult = true
+// } else {
+//     adult = false
+// }
+// console.log(adult);
+// let num = 1
+// let res = num >= 0 ? '1' : '2'
+// console.log(res);
+console.groupEnd()
+console.group('Логические операции в JS 132')
+// console.log(1 == 1);
+// console.log(1 == 2);
+// let a = 1
+// let b = 2
+// console.log(a == b);
+// let a = 1
+// let b = 2
+// let res = a == b
+// console.log(res);
+// let a = 2 * (3 - 1)
+// let b = 6 - 2
+// console.log(a == b);
+// let a = 5 * (7 -4)
+// let b = 1 + 2 + 7
+// console.log(a > b);
+// let a = 2 ** 4
+// let b = 4 ** 2
+// console.log(a != b);
+console.groupEnd()
+console.group('Функция confirm в JS 133')
+// let ok = confirm('Вам исполнилось 18?')
+// console.log(ok);
+// let ok = confirm('Вам исполнилось 18?')
+// if (ok) {
+//     console.log('Вы одветили да');
+// } else {
+//     console.log('Вы ответили нет');
+// }
+// let age = confirm('Вам исполнилось 18?')
+// if (age) {
+//     console.log('Да');
+// } else {
+//     console.log('Нет');
+// }
+console.groupEnd()
+console.group('Область видимости в if-else в JS 134')
+// let res;
+// if(true) {
+//     res = '!'
+// }
+// console.log(res);
+// let res;
+// let num = 5
+// if (num > 0) {
+//     res = 1 
+// } else {
+//     res = 2
+// }
+// console.log(res);
+// let test = true
+// let res
+// if (test) {
+//     res = 1
+// } else {
+//     res = 2
+// }
+// console.log(res);
+// let age = 37
+// let adult;
+// if (age >= 18) {
+//     adult = true
+// } else {
+//     adult = false
+// }
+// console.log(adult);
+console.groupEnd()
+console.group('Нюансы области видимости переменных в конструкциях if-else в JS 135')
+// let res = 1
+// if (true) {
+//     let res = 2
+//     console.log(res);
+// }
+// console.log(res);
+// let age = 17
+// let adult;
+
+// if (age >= 18) {
+//     adult = true
+// } else {
+//     adult = false
+// }
+// console.log(adult);
+// let age = 17
+// let adult
+// if (age >= 18) {
+//     adult = true
+// } else {
+//     adult = false
+// }
+// console.log(adult);
+// let age = 23
+// let res
+// if (age >= 18) {
+//     if (age <=23) {
+//         res = 'от 18 до 23'
+//     } else {
+//         res = 'больше 23'
+//     }
+// } else {
+//     res = 'меньше 18'
+// }
+// console.log(res);
+// let age = 9
+// let res;
+// if (age >= 18) {
+//     // let res
+//     if (age <= 23) {
+//         res = 'от 18 до 23'
+//     } else {
+//         res = 'больше 23'
+//     }
+// } else {
+//     res = 'меньше 18'
+// }
+// console.log(res);
+console.groupEnd()
+console.group('Проверка частей часа через if-else в JS 136')
+// let min = 40
+// if (min >= 0 && min <= 14) {
+//     console.log('1 четверть');
+// }
+// if (min >= 15 && min <= 29) {
+//     console.log('2 четверть');
+// }
+// if (min >= 30 && min <= 39) {
+//     console.log('3 четверть');
+// }
+// if (min >= 40 && min <= 60) {
+//     console.log('4 четверть');
+// }
+// let hour = 31
+// if (hour >= 0 && hour <= 19) {
+//     console.log('1 четверть');
+// }
+// if (hour >= 20 && hour <= 29) {
+//     console.log('2 четверть');
+// }
+// if (hour >= 30 && hour <= 39) {
+//     console.log('3 четверть');
+// }
+// if (hour >= 40 && hour <= 59) {
+//     console.log('4 четверть');
+// }
+console.groupEnd()
+console.group('Проверка длины строк и массивов в JS 137')
+// let str = '12345'
+// if (str.length >= 3) {
+//     console.log('!');
+// }
+// let arr = [1, 2, 3, 4, 5, 6,]
+// if (arr.length >= 3) {
+//     console.log(arr[0] + arr[1]+ arr[2] + arr[3] + arr[4] + arr[5]);
+// }
+console.groupEnd()
+console.group('Проверка символов строки в JS 138')
+// let str = '12345'
+// let last = str[str.length - 1]
+// if (str[0] == 1) {
+//     console.log('!');
+// }
+// if (str[str.length - 1] == 5) {
+//     console.log('!');
+// }
+// if (last == 5) {
+//     console.log('!');
+// }
+// let str = 'abcdefgh'
+// let last = str[str.length - 1]
+// if (str[0] == 'a') {
+//     console.log('!');
+// }
+// if (last == 'h') {
+//     console.log('!');
+// }
+// let str = 'bcd'
+// if (str[0] == 'a' || str[0] == 'b') {
+//     console.log('!');
+// }
+console.groupEnd()
+console.group('Проверка цифр числа в JS 139')
+// let num = 12345
+// if (num[0] == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12345
+// console.log(num[0]);
+// let num = 92345
+// let str = String(num)
+
+// if (str[0] == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (String(num)[0] == 1 || String(num)[1] == 0) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (String(num)[0] == 1 || String(num)[0] == 9) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12345
+// let str = String(num)
+// if (str[0] == 0 || str[0] == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 22
+// let str = String(num)
+// let last = str[str.length - 1]
+// if (last == 0) {
+//     console.log('Равна 0');
+// } else {
+//     console.log('не равна 0');
+// }
+// let num = 231
+// let str = String(num)
+// let last = str[str.length - 1]
+// if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
+//     console.log('Число четное');
+// } else {
+//     console.log('Число не четное');
+// }
+console.groupEnd()
+console.group('Проверка остатка от деления в JS 140')
+// let a = 10
+// let b = 3
+// console.log(a % b);
+// let a = 10
+// let b = 5
+// console.log(a % b);
+// let a = 10
+// let b = 3
+// if (a % b === 0) {
+//     console.log('делится нацело');
+// } else {
+//     console.log('делится с остатком ' + a % b);
+// }
+// let a = 10
+// let b = 3
+// let res = a % b
+// if (res == 0) {
+//     console.log('делится нацело');
+// } else {
+//     console.log('делится с остатком ' + res)
+// }
+// let a = 23
+// let b = 2
+// let res = a % b
+// if (res == 0) {
+//     console.log('число четное');
+// } else {
+//     console.log('число НЕ четное');
+// }
+// let num = 23
+// let a = 3
+// let res = num % a
+// if (res === 0) {
+//     console.log('Делится на 3');
+// } else {
+//     console.log('Не делится на 3');
+// } 
+console.groupEnd()
+console.group('Поиск ошибок в коде с условиями JS 141')
+// let num1 = 1
+// let num2 = 2
+// if (num1 + num2 === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = '1'
+// let num2 = '2'
+// if (+num1 + +num2 === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num1 = '1'
+// let num2 = '2'
+// if (Number(num1) + Number(num2) === 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 123
+// let str = String(num)
+// if (str[0] == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 123
+// if (String(num)[0] == 1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 123
+// if (String(num)[0] === '1') {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 123
+// let first = String(num)[0]
+// if(first === '1') {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12
+// let str = String(num)
+// if (str.length === 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12
+// let str = String(num)
+// if (str.length === 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12
+// if (String(num).length === 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12
+// let str = String(num)
+// if (str.length === 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = 12
+// if (String(num).length === 2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// let num = '123033'
+// let sum1 = +num[0] + +num[1] + +num[2]
+// let sum2 = +num[3] + +num[4] + +num[5]
+// if (sum1 === sum2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// console.groupEnd()
+// console.group('Практика на условия if-else в JS 142')
+// let month = 12
+// if(month == 12 || month == 1 || month == 2 ) {
+//     console.log('Это зима');
+// }
+// if(month == 3 || month == 4 || month == 5 ) {
+//     console.log('Это весна');
+// }
+// if(month == 6 || month == 7 || month == 8 ) {
+//     console.log('Это лето');
+// }
+// if(month == 9 || month == 10 || month == 11 ) {
+//     console.log('Это осень');
+// }
+// let str = 'abcd'
+// if (str[0] == 'a') {
+//     console.log('да');
+// } else {
+//     console.log('нет');
+// }
+// let num = 99945
+// let str = String(num)
+// if (str[0] == 1 || str[1] == 2 || str[2] == 3) {
+//     console.log('ДА');
+// } else {
+//     console.log('нет');
+// }
+// let num = 876
+// let str = String(num)
+// console.log(+str[0] + +str[1] + +str[2]);
+// let num = 923321
+// let str = String(num)
+// let sum1 = +str[0] + +str[1] + +str[2]
+// let sum2 = +str[3] + +str[4] + +str[5]
+// if (sum1 == sum2) {
+//     console.log('ДА');
+// } else {
+//     console.log('НЕТ');
+// }
+console.groupEnd()
+console.groupEnd()
+console.group('Введение в циклы в JS 143-167')
+console.group('Введение в циклы JS 143')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
